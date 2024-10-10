@@ -12,6 +12,7 @@ body{
 
 .image-1{
   text-align: center;
+  padding-top: 26px;
   margin-bottom: 0;
 }
 .first-section-div{
@@ -22,6 +23,7 @@ body{
 .headline{
   text-align: center;
   display: flex;
+  justify-content: space-around;
 flex-direction: column;
 align-items: center;
 gap: 32px;
@@ -93,8 +95,49 @@ font-weight: 800;
   padding: 48px;
   background-color: #FFFFFF;
   text-align: left;
+  margin-bottom: 32px;
+}
+
+.coding-1{
+  width: 477px
 }
 
 .secondary-button{
   text-align: left;
+  display: flex;
+padding: 12px 20px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+cursor: pointer;
+margin-top: 32px;
+color: #0D1321;
+text-align: center;
+font-size: 20px;
+font-weight: 600;
+opacity: 0.7;
+}
+
+.div-image{
+  display: flex;
+width: 274.169px;
+height: 240px;
+padding: 3.767px 13.664px 19.221px 0.941px;
+align-items: center;
+
+}
+
+.code-title{
+color: rgba(13, 19, 33, 0.70);
+font-size: 24px;
+font-weight: 700;
+line-height: 36px; 
+}
+
+.code-description{
+color: #0D1321;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+opacity: 0.7;
 }
